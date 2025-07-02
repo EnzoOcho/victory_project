@@ -349,7 +349,7 @@ body {
     
 }
 .black{
-    background: #1E1E1E;
+    background: #1e1e1e9d;
 }
 .func_cross {
     background: linear-gradient(90deg, rgba(252, 163, 17, 0.41) 0%, rgba(245, 47, 48, 0.41) 100%);
@@ -638,9 +638,6 @@ body {
     margin-left: 10px;
 }
 
-.mapa{
-    
-}
 
 .logo{
     width: 44px;

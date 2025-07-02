@@ -1,8 +1,8 @@
 function abrirWhatsapp() {
-  const numero = ""; // Reemplazá con tu número
+  const numero = "5491144029294"; 
   const mensaje = "Hola, quiero más información";
   const url = "https://wa.me/" + numero + "?text=" + encodeURIComponent(mensaje);
-  window.open(url, "_blank"); // Abre en nueva pestaña/ventana
+  window.open(url, "_blank"); 
 }
 
 
