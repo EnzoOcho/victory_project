@@ -43,7 +43,7 @@ body {
 }
 
 .victory_logo {
-    /* width: 150vw; */
+     width: 150vw; 
     z-index: 1;
     left: 0%;
     right: 0%;
@@ -292,7 +292,7 @@ body {
 }
 
 .parent {
-    padding: 50px 120px 0px 120px;
+    /* padding: 50px 120px 0px 120px; */
     display: grid;
     grid-template-columns: 75px repeat(6, 1fr);
     gap: 20px;
@@ -498,30 +498,6 @@ body {
 }
 /*............*/
 
-/* dropdown menus */
-
-.dropdown-menu {
-  position: absolute;
-  background-color: white;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 5px 0;
-  border-radius: 6px;
-  z-index: 1000;
-}
-
-.dropdown-menu .option {
-  display: block;
-  padding: 8px 12px;
-  width: 100%;
-  border: none;
-  background: none;
-  text-align: left;
-  cursor: pointer;
-}
-
-.dropdown-menu .option:hover {
-  background-color: #f0f0f0;
-}
 
 /* ....................... */
 
