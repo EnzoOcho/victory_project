@@ -14,7 +14,7 @@ function displayHeader() {
   header.classList.toggle("displayed")
   botonera.classList.toggle("show-btns")
 }
-
+//lele
 headerBtn.addEventListener("click", displayHeader)
 
 const botonera = document.querySelector(".botonera")
