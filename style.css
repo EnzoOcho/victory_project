@@ -311,7 +311,6 @@ body {
     gap: 20px;
     overflow: auto;
     width: 80vw;
-
 }
 
 .dia,
@@ -322,10 +321,7 @@ body {
 
 .dia>div,
 .tiempos>div {
-
-
     height: 30px;
-
 }
 
 .tiempos>div {
