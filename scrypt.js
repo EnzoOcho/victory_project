@@ -1,6 +1,6 @@
 function abrirWhatsapp() {
   const numero = "5491144029294"; 
-  const mensaje = "Hola, quiero más información";
+  const mensaje = "Hola, buen dia! Me gustaria más información";
   const url = "https://wa.me/" + numero + "?text=" + encodeURIComponent(mensaje);
   window.open(url, "_blank"); 
 }
@@ -34,9 +34,16 @@ function scrollASeccion(e) {
 let lastScroll = 0;
 let openedByButton = false;
 
+const whatBtn = document.querySelector(".what-btn")
 
 window.addEventListener("scroll", () => {
   const currentScroll = window.scrollY;
+  if(currentScroll<100){
+    whatBtn.classList.add("active")
+  } else{
+    whatBtn.classList.remove("active")
+  }
+
 
   if (currentScroll > lastScroll && currentScroll > 100) {
     header.classList.add("hidden");

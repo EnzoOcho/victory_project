@@ -152,7 +152,7 @@ body {
 .block {
     background-color: blanchedalmond;
      width: 442px; 
-     
+    
     flex-grow: 1;
     flex-shrink: 0;
     flex-basis: 0;
@@ -162,7 +162,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-width: 400px;
+    min-width: 350px;
     flex-wrap: wrap;
 }
 .block:hover .image {
@@ -236,7 +236,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: ease-in-out;
+    transition:ease-in-out;
     transition-duration: 300ms;
 }
 
@@ -247,7 +247,7 @@ body {
     padding: 20px;
     height: 60%;
     font-family: "Anton", sans-serif;
-    font-size: clamp(8px, 17px, 30px);
+    font-size: clamp(8px, 15px, 30px);
     font-weight: 50;
     letter-spacing: 2px;
     text-shadow:  20px black;
@@ -411,29 +411,28 @@ body {
 .what-btn>p {
     color: transparent;
     width: 0;
-
     transition: ease-in-out;
     transition-duration: 300ms;
-
 }
 
-.what-btn:hover {
+.what-btn:hover,
+.what-btn.active {
     background-color: #25D366;
     width: 150px;
-
     border: 3px solid white;
     cursor: pointer;
 }
 
-.what-btn:hover .loguito {
+.what-btn:hover .loguito,
+.what-btn.active .loguito{
     filter: invert(0%);
 }
 
-.what-btn:hover>p {
+.what-btn:hover>p,
+.what-btn.active>p {
     color: white;
     width: auto;
     padding-left: 10px;
-
 }
 
 .loguito {
